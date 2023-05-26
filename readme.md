@@ -21,9 +21,15 @@ Este es un proyecto de eCommerce para la venta de productos en línea, desarroll
 1. Clona este repositorio en tu máquina local:
 
    git clone https://github.com/VitorinoLuca/iStoreEcommerce.git
+   
+2. Navega al directorio del proyecto:
 
-3. Crea un proyecto en Firebase y configura la aplicación web. Obtén las credenciales de Firebase (apiKey, authDomain, projectId, etc.) y reemplaza los valores correspondientes en el archivo `src/components/Checkout/Checkout.js`.
+   cd iStoreEcommerce
 
+3. Instala las dependencias
+
+   npm install
+   
 4. Inicia la aplicación en modo de desarrollo:
 
    npm start
