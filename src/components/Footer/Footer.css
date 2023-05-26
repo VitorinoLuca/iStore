@@ -1,0 +1,16 @@
+.footer__container {
+  max-width: 900px;
+  margin: 0 auto;
+  border-top: 2px solid #bbbec0;
+  padding: 1.5rem;
+}
+.footer-text {
+  text-align: center;
+  color: #6c757d;
+}
+.footer-text a {
+  color: rgb(0, 60, 255);
+}
+.footer-text a:hover {
+  text-decoration: underline;
+}

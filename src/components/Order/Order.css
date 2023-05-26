@@ -1,0 +1,42 @@
+.order-container {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.order-content {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.order-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.order-info {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.order-id {
+  font-weight: bold;
+}
+
+.order-message {
+  font-size: 18px;
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  .order-container {
+    display: flex;
+    height: 88vh;
+    align-items: center;
+    justify-content: center;
+  }
+}

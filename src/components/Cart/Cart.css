@@ -1,0 +1,148 @@
+/* Agrega estilos según tu preferencia */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90svh;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.empty-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.empty-link {
+  color: #0077ed;
+  text-decoration: none;
+}
+
+.bag-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bag-checkout {
+  text-align: center;
+}
+
+.bag-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.bag-subtitle {
+  margin-bottom: 1rem;
+}
+
+.bag-continue {
+  display: block;
+  color: #0077ed;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.bag-buy {
+  width: 100%;
+  max-width: 250px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  background: #0077ed;
+  color: #fff;
+  padding: 8px 16px;
+  margin-bottom: 1rem;
+}
+
+.bag-products {
+  width: 100%;
+}
+
+.bag-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  padding: 2rem;
+  border-bottom: 1px solid #bbbec0;
+}
+
+.bag-image {
+  width: 100px;
+  margin-right: 1rem;
+}
+
+.bag-info {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bag-info-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 200px;
+}
+
+.price-remove {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.remove {
+  border: none;
+  background: none;
+  color: #0077ed;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .bag-product {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .bag-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bag-info-title {
+    width: auto;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .price-remove {
+    align-items: center;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .bag-image {
+    margin: auto;
+  }
+}
