@@ -1,4 +1,4 @@
-# iStore eCommerce
+# iStore Ecommerce
 
 Este es un proyecto de eCommerce para la venta de productos en línea, desarrollado con React.js y Firebase. Permite a los usuarios agregar productos al carrito, realizar el proceso de pago y generar órdenes de compra.
 
