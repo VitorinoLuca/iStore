@@ -20,7 +20,7 @@ Este es un proyecto de eCommerce para la venta de productos en línea, desarroll
 
 1. Clona este repositorio en tu máquina local:
 
-   git clone https://github.com/VitorinoLuca/iStoreEcommerce.git
+   git clone https://github.com/VitorinoLuca/iStore.git
    
 2. Navega al directorio del proyecto:
 
